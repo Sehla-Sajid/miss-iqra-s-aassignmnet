@@ -1,0 +1,71 @@
+nav {
+  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+}
+#logo {
+  color: blue;
+  font-size: 40px;
+  margin-right: 30px;
+}
+#logo span {
+  color: orange;
+  font-size: 80px;
+}
+ul li {
+  display: inline-block;
+  margin: 0px 20px;
+  font-size: 22px;
+  color: white;
+}
+ul li a:hover {
+  cursor: pointer;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+button {
+  background-color: red;
+  color: white;
+  height: 50px;
+  width: 110px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+#bottom {
+  background-image: url(./2.jpg);
+  height: 200px;
+  padding: 60px 0px;
+  color: darkblue;
+  width: 100%;
+}
+#bottom h1 {
+  margin: 0 500px;
+  width: 30%;
+  color: black;
+}
+footer {
+  width: 100%;
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  margin-top: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+footer img {
+  border-radius: 20px;
+  margin: 20px 0px;
+  border-color: black;
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  border: 2px dashed black;
+}
+figure {
+  display: inline-block;
+}
